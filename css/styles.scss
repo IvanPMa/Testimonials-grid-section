@@ -27,6 +27,7 @@ body{
 .container{
   display: grid;
   width: 100%;
+  height: auto;
   padding: 72px 30px;
 }
 
@@ -37,6 +38,7 @@ body{
   margin-bottom: 25px;
   padding: 27px;
   color: $white;
+  height: auto;
   display: grid;
   border-radius: 8px;
 
@@ -90,9 +92,26 @@ body{
 }
 
 .cards--gray{
-  width: 100%;
   background-color: $very-dark-grayish-blue;
 }
+
+$text-opacity: rgba($color: #49556b, $alpha: 0.5);
+.cards--white{
+  background-color: $white;
+  color: $very-dark-grayish-blue;
+  .cards__header{
+    .cards__header__span{
+      color: $text-opacity;
+    }
+    
+  }
+  .cards__body{
+    color: $text-opacity
+    
+  }
+  
+}
+
 
 //Breakpoints
 $mobile-screen: 376px;
