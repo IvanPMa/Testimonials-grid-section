@@ -73,7 +73,7 @@ body{
     font-weight: bold;
     font-size: 18px;
     line-height: 22px;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.4px;
   }
   .cards__body{
     margin-top: 0px;
@@ -87,4 +87,17 @@ body{
   background-image: url('../images/bg-pattern-quotation.svg');
   background-repeat: no-repeat;
   background-position-x: 50vw;
+}
+
+.cards--gray{
+  width: 100%;
+  background-color: $very-dark-grayish-blue;
+}
+
+//Breakpoints
+$desktop: 375px;
+@media(min-width: $desktop){
+  .cards__title__salto{
+    display: none;
+  }
 }
