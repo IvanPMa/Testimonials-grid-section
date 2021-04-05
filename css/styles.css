@@ -76,6 +76,10 @@ body {
   color: rgba(255, 255, 255, 0.5);
 }
 
+.cards:last-child {
+  margin-bottom: 0px;
+}
+
 .cards--violet {
   background-image: url("../images/bg-pattern-quotation.svg");
   background-repeat: no-repeat;

@@ -84,6 +84,10 @@ body{
     color: $white-opacity;
   }
 }
+
+.cards:last-child{
+  margin-bottom: 0px;
+}
 // Modifiers
 .cards--violet{
   background-image: url('../images/bg-pattern-quotation.svg');
