@@ -41,6 +41,7 @@ body{
   .cards__header{
     display: grid;
     grid-template-columns: 30px 1fr;
+
     .cards__header__image{
       width: 30px;
       border-radius: 100%;
@@ -58,5 +59,9 @@ body{
     .cards__header__span{
       color: $white-opacity;
     }
+
+    .cards
   }
+
+
 }
