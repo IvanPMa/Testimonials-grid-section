@@ -28,7 +28,7 @@ body {
   color: white;
   display: -ms-grid;
   display: grid;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 .cards .cards__header {
