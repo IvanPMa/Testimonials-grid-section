@@ -11,6 +11,7 @@ html {
 body {
   background-color: #ecf2f8;
   font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 13px;
 }
 
 .container {
@@ -18,5 +19,15 @@ body {
   display: grid;
   width: 100%;
   padding: 72px 25px;
+}
+
+.cards {
+  background-color: #7541c8;
+  margin-bottom: 25px;
+  padding: 30px;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=styles.css.map */

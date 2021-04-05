@@ -20,10 +20,20 @@ $font-f: 'Barlow Semi Condensed', sans-serif;
 body{
   background-color: $light-grayish-blue;
   font-family: $font-f;
+  font-size: 13px;
 }
 
 .container{
   display: grid;
   width: 100%;
   padding: 72px 25px;
+}
+
+.cards{
+  background-color: $moderate-violet;
+  margin-bottom: 25px;
+  padding: 30px;
+  color: $white;
+  display: grid;
+  border-radius: 10px;
 }
