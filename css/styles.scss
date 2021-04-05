@@ -35,7 +35,7 @@ body{
   
   background-color: $moderate-violet;
   margin-bottom: 25px;
-  padding: 30px;
+  padding: 27px;
   color: $white;
   display: grid;
   border-radius: 8px;
@@ -95,8 +95,8 @@ body{
 }
 
 //Breakpoints
-$desktop: 375px;
-@media(min-width: $desktop){
+$mobile-screen: 376px;
+@media(min-width: $mobile-screen){
   .cards__title__salto{
     display: none;
   }
