@@ -99,6 +99,10 @@ body {
   color: rgba(73, 85, 107, 0.5);
 }
 
+.cards--black {
+  background-color: #19212e;
+}
+
 @media (min-width: 376px) {
   .cards__title__salto {
     display: none;
