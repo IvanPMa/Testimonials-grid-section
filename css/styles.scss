@@ -30,6 +30,7 @@ body{
   padding: 72px 30px;
 }
 
+//BEM Methodlogy
 .cards{
   
   background-color: $moderate-violet;
@@ -69,9 +70,10 @@ body{
 
   .cards__title{
     margin-top: 10px;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 18px;
     line-height: 22px;
+    letter-spacing: 0.5px;
   }
   .cards__body{
     margin-top: 0px;
@@ -79,4 +81,10 @@ body{
     line-height: 17px;
     color: $white-opacity;
   }
+}
+// Modifiers
+.cards--violet{
+  background-image: url('../images/bg-pattern-quotation.svg');
+  background-repeat: no-repeat;
+  background-position-x: 50vw;
 }

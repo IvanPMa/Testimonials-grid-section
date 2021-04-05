@@ -61,9 +61,10 @@ body {
 
 .cards .cards__title {
   margin-top: 10px;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 18px;
   line-height: 22px;
+  letter-spacing: 0.5px;
 }
 
 .cards .cards__body {
@@ -71,5 +72,11 @@ body {
   margin-bottom: 0px;
   line-height: 17px;
   color: rgba(255, 255, 255, 0.5);
+}
+
+.cards--violet {
+  background-image: url("../images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position-x: 50vw;
 }
 /*# sourceMappingURL=styles.css.map */
