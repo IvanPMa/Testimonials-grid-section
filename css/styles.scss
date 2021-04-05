@@ -130,7 +130,9 @@ $mobile-screen: 768px;
     grid-gap: 25px;
     padding: 125px 130px;
 
-    
+    .cards--violet{
+      grid-column: 1 /3;
+    }
 
   }
   
