@@ -27,7 +27,7 @@ body{
 .container{
   display: grid;
   width: 100%;
-  padding: 72px 25px;
+  padding: 72px 40px;
 }
 
 .cards{
@@ -52,16 +52,22 @@ body{
       margin-top: 0px;
       font-size: 11px;
       margin-left: 15px;
-      line-height: 15px;
+      line-height: 12px;
       font-weight: normal;
     }
 
     .cards__header__span{
       color: $white-opacity;
+      font-size: 9px;
     }
 
-    .cards
+    
   }
 
-
+  .cards__title{
+    margin-top: 5px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+  }
 }
