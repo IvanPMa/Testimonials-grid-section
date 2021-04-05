@@ -7,4 +7,15 @@ html {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
 }
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.container {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  padding: 72px 25px;
+}
 /*# sourceMappingURL=styles.css.map */

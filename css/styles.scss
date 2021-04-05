@@ -4,3 +4,25 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
+
+  //Colors
+//Cards
+$moderate-violet: hsl(263, 55%, 52%);
+$very-dark-grayish-blue: hsl(217, 19%, 35%);
+$very-dark-blackish-blue: hsl(219, 29%, 14%);
+$white: hsl(0, 0%, 100%);
+
+$light-gray: hsl(0, 0%, 81%);
+$light-grayish-blue: hsl(210, 46%, 95%);
+
+// font family
+$font-f: 'Barlow Semi Condensed', sans-serif;
+body{
+  font-family: $font-f;
+}
+
+.container{
+  width: 100%;
+  display: grid;
+  padding: 72px 25px;
+}
