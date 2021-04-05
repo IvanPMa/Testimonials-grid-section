@@ -122,7 +122,7 @@ $text-opacity: rgba($color: #49556b, $alpha: 0.5);
 
 
 //Breakpoints
-$mobile-screen: 768px;
+$mobile-screen: 950px;
 @media(min-width: $mobile-screen){
   .container{
     grid-template-columns: repeat(4, 1fr);
