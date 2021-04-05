@@ -122,8 +122,21 @@ $text-opacity: rgba($color: #49556b, $alpha: 0.5);
 
 
 //Breakpoints
-$mobile-screen: 376px;
+$mobile-screen: 768px;
 @media(min-width: $mobile-screen){
+  .container{
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 25px;
+    padding: 125px 130px;
+
+    
+
+  }
+  
+  
+  
+  
   .cards__title__salto{
     display: none;
   }
