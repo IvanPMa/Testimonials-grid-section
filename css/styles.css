@@ -30,4 +30,29 @@ body {
   display: grid;
   border-radius: 10px;
 }
+
+.cards .cards__header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30px 1fr;
+      grid-template-columns: 30px 1fr;
+}
+
+.cards .cards__header .cards__header__image {
+  width: 30px;
+  border-radius: 100%;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.cards .cards__header .cards__header__title {
+  margin-top: 0px;
+  font-size: 11px;
+  margin-left: 15px;
+  line-height: 15px;
+  font-weight: normal;
+}
+
+.cards .cards__header .cards__header__span {
+  color: rgba(255, 255, 255, 0.5);
+}
 /*# sourceMappingURL=styles.css.map */
